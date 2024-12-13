@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 
 import './global.css'
 import { Add } from './components/Add'
+import { List } from './components/List'
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
       <Header />
       <div className={styles.wrapper}>
         <Add />
+        <List />
       </div>
     </>
   )

@@ -1,0 +1,24 @@
+.list header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.createdTasks {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.count {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.7rem;
+    font-size: 0.9rem;
+}
+
+.completedTasks {
+    color: var(--purple);
+    font-weight: 700;
+}
